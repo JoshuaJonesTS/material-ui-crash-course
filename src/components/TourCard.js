@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import { imageAddress } from "./TourCard.utils";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { AccessTime } from "@mui/icons-material";
 
 const TourCard = () => {
     return (
@@ -23,6 +24,7 @@ const TourCard = () => {
                             alignItems: 'center'
                         }}
                     >
+                    <AccessTime/>
                     <Typography variant='body2' component='p'>
                         5 hours
                     </Typography>
