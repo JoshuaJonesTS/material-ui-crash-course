@@ -25,7 +25,7 @@ const TourCard = () => {
                         }}
                     >
                     <AccessTime sx={{ width: 12.5 }}/>
-                    <Typography variant='body2' component='p'>
+                    <Typography variant='body2' component='p' marginLeft={0.5}>
                         5 hours
                     </Typography>
                     </Box>
