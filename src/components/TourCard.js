@@ -24,7 +24,7 @@ const TourCard = () => {
                             alignItems: 'center'
                         }}
                     >
-                    <AccessTime/>
+                    <AccessTime sx={{ width: 12.5 }}/>
                     <Typography variant='body2' component='p'>
                         5 hours
                     </Typography>
