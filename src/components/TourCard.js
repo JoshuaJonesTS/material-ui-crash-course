@@ -4,6 +4,7 @@ import { imageAddress } from "./TourCard.utils";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { AccessTime } from "@mui/icons-material";
+import Rating from "@mui/material/Rating";
 
 const TourCard = () => {
     return (
@@ -28,6 +29,21 @@ const TourCard = () => {
                     <Typography variant='body2' component='p' marginLeft={0.5}>
                         5 hours
                     </Typography>
+                    </Box>
+                    <Box  
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center'
+                        }}
+                        marginTop={3}
+                    >
+                    <Rating 
+                        name='half-rating-read' 
+                        defaultValue={4.5} 
+                        precision={0.5} 
+                        readOnly 
+                        size='small'
+                    />
                     </Box>
                 </Box>
             </Paper>
