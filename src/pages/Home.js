@@ -1,8 +1,8 @@
-import TourCard from './components/TourCard';
+import TourCard from '../components/TourCard';
 import Container from '@mui/system/Container';
 import Grid from '@mui/material/Grid';
-import SearchAppBar from './components/AppBar';
-import cities from "./data.json"
+import SearchAppBar from '../components/AppBar';
+import cities from "../data.json"
 import { Typography } from '@mui/material';
 
 const Home = () => {
