@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <SearchAppBar/>
-      <Container>
+      <Container sx={{marginY: 5}}>
         <Grid container spacing={5}>
           <TourCard/>
           <TourCard/>
