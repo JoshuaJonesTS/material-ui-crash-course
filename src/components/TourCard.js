@@ -44,6 +44,9 @@ const TourCard = () => {
                         readOnly 
                         size='small'
                     />
+                     <Typography variant='body2' component='p' marginLeft={0.5}>
+                        4.5
+                    </Typography>
                     </Box>
                 </Box>
             </Paper>
