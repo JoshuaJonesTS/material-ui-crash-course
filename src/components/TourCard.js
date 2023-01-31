@@ -25,10 +25,10 @@ const TourCard = () => {
                             alignItems: 'center'
                         }}
                     >
-                    <AccessTime sx={{ width: 12.5 }}/>
-                    <Typography variant='body2' component='p' marginLeft={0.5}>
-                        5 hours
-                    </Typography>
+                        <AccessTime sx={{ width: 12.5 }}/>
+                        <Typography variant='body2' component='p' marginLeft={0.5}>
+                            5 hours
+                        </Typography>
                     </Box>
                     <Box  
                         sx={{
@@ -37,19 +37,19 @@ const TourCard = () => {
                         }}
                         marginTop={3}
                     >
-                    <Rating 
-                        name='half-rating-read' 
-                        defaultValue={4.5} 
-                        precision={0.5} 
-                        readOnly 
-                        size='small'
-                    />
-                     <Typography variant='body2' component='p' marginLeft={0.5}>
-                        4.5
-                    </Typography>
-                    <Typography variant='body2' component='p' marginLeft={0.5}>
-                        (655 reviews)
-                    </Typography>
+                        <Rating 
+                            name='half-rating-read' 
+                            defaultValue={4.5} 
+                            precision={0.5} 
+                            readOnly 
+                            size='small'
+                        />
+                        <Typography variant='body2' component='p' marginLeft={0.5}>
+                            4.5
+                        </Typography>
+                        <Typography variant='body2' component='p' marginLeft={0.5}>
+                            (655 reviews)
+                        </Typography>
                     </Box>
                 </Box>
             </Paper>
