@@ -47,6 +47,9 @@ const TourCard = () => {
                      <Typography variant='body2' component='p' marginLeft={0.5}>
                         4.5
                     </Typography>
+                    <Typography variant='body2' component='p' marginLeft={0.5}>
+                        (655 reviews)
+                    </Typography>
                     </Box>
                 </Box>
             </Paper>
