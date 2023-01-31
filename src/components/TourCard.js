@@ -1,6 +1,5 @@
 import Paper from "@mui/material/Paper";
 import { Grid } from "@mui/material";
-import { imageAddress } from "./TourCard.utils";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { AccessTime } from "@mui/icons-material";
