@@ -51,6 +51,11 @@ const TourCard = () => {
                             (655 reviews)
                         </Typography>
                     </Box>
+                    <Box>
+                        <Typography variant='h6' component='h3' marginTop={0}>
+                            From C $147
+                        </Typography>
+                    </Box>
                 </Box>
             </Paper>
         </Grid>
