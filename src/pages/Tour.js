@@ -24,7 +24,7 @@ const Tour = () => {
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                     deserunt mollit anim id est laborum.
                 </Typography>
-                <Typography variant='h6' component='h4' marginTop={3}>
+                <Typography variant='h6' component='h4' marginTop={3} marginBottom={2}>
                     Frquently Asked Questions
                 </Typography>
                 <CustomizedAccordions></CustomizedAccordions>
