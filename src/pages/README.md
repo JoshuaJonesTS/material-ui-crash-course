@@ -8,7 +8,7 @@ These two pages, along with the rest of the React code, were created using Mater
     * Material UI
 
 ## Screenshot of Homepage
-
+![Alt text](../images/01_homepage.JPG?raw=true "Homepage")
 
 ## Links
 Home.js: [homepage](https://material-ui-demo-jjts.netlify.app/)
