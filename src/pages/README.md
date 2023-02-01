@@ -11,8 +11,8 @@ These two pages, along with the rest of the React code, were created using Mater
 ![Alt text](../images/01_homepage.JPG?raw=true "Homepage")
 
 ## Links
-Home.js: [homepage](https://material-ui-demo-jjts.netlify.app/)
-Tour.js: [tour](https://material-ui-demo-tour-jjts.netlify.app/)
+* Home.js: [homepage](https://material-ui-demo-jjts.netlify.app/)
+* Tour.js: [tour](https://material-ui-demo-tour-jjts.netlify.app/)
 
 ## Contribution
 Made by Joshua Jones of Tailored Software
