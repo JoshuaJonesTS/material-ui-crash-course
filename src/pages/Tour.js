@@ -9,7 +9,7 @@ const Tour = () => {
                 Explore the World in Vegas
             </Typography>
             <Box marginTop={3} sx={{displayFlex: 'flex'}}>
-                <img src='https://www.travelandleisure.com/thmb/655_7ZWBV7JsuIkj270XXpHYXxA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/las-vegas-nevada-LVTG0221-9fbc1de25545444ead7dd48d2a6b1056.jpg' alt='' style={{height: '325px', width: '500px'}}/>
+                <img src='https://media.timeout.com/images/105124791/750/422/image.jpg' alt='' style={{height: '325px'}}/>
             </Box>
         </Container>
     );
