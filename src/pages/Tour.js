@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import ImageCollage from "../components/ImageCollage";
 import CustomizedAccordions from "../components/Accordian";
 import SimpleBottomNavigation from "../components/BottomNavigation";
+import BasicModal from "../components/Modal";
 
 const Tour = () => {
     return (
@@ -29,7 +30,9 @@ const Tour = () => {
                     Frquently Asked Questions
                 </Typography>
                 <CustomizedAccordions></CustomizedAccordions>
-                <SimpleBottomNavigation/>
+                <SimpleBottomNavigation>
+                    <BasicModal></BasicModal>
+                </SimpleBottomNavigation>
             </Box>
         </Container>
     );
