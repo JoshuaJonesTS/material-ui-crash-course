@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import Container from "@mui/system/Container";
 import Box from "@mui/material/Box";
 import ImageCollage from "../components/ImageCollage";
+import CustomizedAccordions from "./Accordian";
 
 const Tour = () => {
     return (
@@ -26,7 +27,7 @@ const Tour = () => {
                 <Typography variant='h6' component='h4' marginTop={3}>
                     Frquently Asked Questions
                 </Typography>
-                
+                <CustomizedAccordions></CustomizedAccordions>
             </Box>
         </Container>
     );
