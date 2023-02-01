@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import Container from "@mui/system/Container";
 import Box from "@mui/material/Box";
 import ImageCollage from "../components/ImageCollage";
-import CustomizedAccordions from "./Accordian";
+import CustomizedAccordions from "../components/Accordian";
 import SimpleBottomNavigation from "../components/BottomNavigation";
 
 const Tour = () => {
