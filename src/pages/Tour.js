@@ -11,8 +11,8 @@ const Tour = () => {
             </Typography>
             <Box marginTop={3} sx={{display: 'flex'}}>
                 <img src='https://media.timeout.com/images/105124791/750/422/image.jpg' alt='' style={{height: '325px'}}/>
+                <ImageCollage />
             </Box>
-            <ImageCollage />
         </Container>
     );
 }
