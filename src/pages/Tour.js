@@ -13,6 +13,17 @@ const Tour = () => {
                 <img src='https://media.timeout.com/images/105124791/750/422/image.jpg' alt='' style={{height: '325px'}}/>
                 <ImageCollage />
             </Box>
+            <Box>
+            <Typography variant='h6' component='h4' marginTop={3}>
+                About this ticket
+            </Typography>
+            <Typography variant='paragraph' component='p' marginTop={3}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum.
+            </Typography>
+            </Box>
         </Container>
     );
 }
